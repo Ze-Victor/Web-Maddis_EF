@@ -1,0 +1,104 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+
+}
+.center{
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 125px;
+  
+
+
+} 
+.form-login {
+  display: flex;
+  flex: 1;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  height: 400px;
+
+  border-radius: 100%;
+  border: solid 10px;
+}
+
+.form-login form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.form-login form input{
+  width: 180px;
+  height: 30px;
+
+  margin-top: 15px;
+  padding-left: 10px;
+
+  background-color:whitesmoke;
+  border-radius: 5px;
+}
+
+.form-login form .user {
+  margin-right: 10px;
+}
+
+.form-login form .password {
+  margin-right: 10px;
+}
+
+.form-login .buttons {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.form-login .buttons .button-login{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30px;
+  width: 80px;
+
+  text-decoration: none;
+
+  background-color: #675EEC;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.form-login .buttons .button-login:hover{
+  opacity: 0.9;
+  transition: all ease 0.2s;
+}
+
+.form-login .buttons .button-cadastro{
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.form-login .buttons .button-cadastro:hover{
+  text-decoration:underline;
+}
